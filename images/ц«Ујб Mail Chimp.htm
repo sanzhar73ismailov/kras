@@ -1,0 +1,142 @@
+
+<!-- saved from url=(0050)http://localhost/kras/edit.php?entity=patient&id=1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="./Форма Mail Chimp_files/style.css">
+<title>Форма Mail Chimp</title>
+</head>
+<body>
+<div id="wrap"><div id="header">
+header<p>header</p><p>header</p><p>
+</p></div>
+
+
+
+
+
+<div id="content">
+
+
+<form method="post" action="http://localhost/kras/save.php">
+<input type="hidden" name="entity" value="patient">
+
+<table class="form">
+
+	<tbody><tr>
+		<td>Код пациента</td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td>Фамилия</td>
+		<td><input type="text" name="last_name" size="50"></td>
+	</tr>
+
+	<tr>
+		<td>Имя</td>
+		<td><input type="text" name="first_name" size="50"></td>
+	</tr>
+
+	<tr>
+		<td>Отчество</td>
+		<td><input type="text" name="patronymic_name" size="50"></td>
+	</tr>
+
+	<tr>
+		<td>Пол</td>
+		<td><select name="sex_id">
+						<option value="-1">Нет данных</option>
+						<option value="1">мужской</option>
+						<option value="2">женский</option>
+					</select></td>
+	</tr>
+
+	<tr>
+		<td>Дата рождения</td>
+		<td><input type="text" name="date_birth" size="50"></td>
+	</tr>
+
+	<tr>
+		<td>Вес (кг)</td>
+		<td><input type="text" name="weight_kg" size="50"></td>
+	</tr>
+
+	<tr>
+		<td>Рост (см)</td>
+		<td><input type="text" name="height_sm" size="50"></td>
+	</tr>
+
+	<tr>
+		<td>Профессиональные или<br>иные вредности (да, нет)</td>
+		<td><select name="prof_or_other_hazards_yes_no_id">
+						<option value="-1">Нет данных</option>
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</select></td>
+	</tr>
+
+	<tr>
+		<td>Профессиональные или<br>иные вредности (описание)</td>
+		<td><input type="text" name="prof_or_other_hazards_discr" size="50"></td>
+	</tr>
+
+	<tr>
+		<td>Национальность</td>
+		<td><select name="nationality_id">
+						<option value="-1">Нет данных</option>
+						<option value="1">казахи</option>
+						<option value="2">русские</option>
+						<option value="3">украинцы</option>
+						<option value="4">татары</option>
+						<option value="5">немцы</option>
+						<option value="6">корейцы</option>
+					</select></td>
+	</tr>
+
+	<tr>
+		<td>Курит (да, нет)</td>
+		<td><select name="smoke_yes_no_id">
+						<option value="-1">Нет данных</option>
+						<option value="0">Нет</option>
+						<option value="1">Да</option>
+					</select></td>
+	</tr>
+
+	<tr>
+		<td>Если курит указать как часто</td>
+		<td><input type="text" name="smoke_discr" size="50"></td>
+	</tr>
+
+	<tr>
+		<td>Откуда материла<br>(Город, больница)</td>
+		<td><input type="text" name="hospital" size="50"></td>
+	</tr>
+
+	
+	<tr>
+		<td>ФИО врача</td>
+		<td><input type="text" name="doctor" size="50"></td>
+	</tr>
+
+	<tr>
+		<td>Примечание</td>
+		<td><input type="text" name="coments" size="50"></td>
+	</tr>
+	
+	<tr>
+		<td><input type="submit" value="Сохранить" style="width:120px;height:20px"></td>
+		<td><input type="reset" value="Сброс" style="width:120px;height:20px"></td>
+	</tr>
+	
+</tbody></table>
+
+</form>
+
+</div>
+
+<div id="footer">
+footer
+</div></div>
+
+
+</body></html>
